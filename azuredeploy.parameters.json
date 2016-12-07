@@ -3,22 +3,22 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/claudiol/openshift-enterprise/master"
+			"value": "https://raw.githubusercontent.com/claudiol/openshift-enterprise/claudiol-azure"
 		},
 		"masterVmSize": {
-			"value": "Standard_DS3_v2"
+			"value": "Standard_DS3"
 		},
 		"nodeVmSize": {
-			"value": "Standard_DS3_v2"
+			"value": "Standard_DS2"
 		},
 		"openshiftClusterPrefix": {
 			"value": "changeme"
 		},
 		"openshiftMasterPublicIpDnsLabelPrefix": {
-			"value": "GEN-UNIQUE"
+			"value": "GCSS"
 		},
 		"nodeLbPublicIpDnsLabelPrefix": {
-			"value": "GEN-UNIQUE"
+			"value": "GCSS"
 		},
 		"nodeInstanceCount": {
 			"value": 1
@@ -27,40 +27,40 @@
 			"value": 50
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "gcss-admin"
 		},
 		"openshiftPassword": {
-			"value": "changeme"
+			"value": "r3dh4t1!"
 		},
 		"cloudAccessUsername": {
-			"value": "changeme"
+			"value": "rhn-gps-claudiol"
 		},
 		"cloudAccessPassword": {
 			"value": "changeme"
 		},
 		"cloudAccessPoolId": {
-			"value": "changeme"
+			"value": "8a85f9843e3d687a013e3ddd46dd07f1"
 		},
 		"sshPublicKey": {
-			"value": "GEN-SSH-PUB-KEY"
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2t1afKuR+PgcxpCdr6L+N+HBXzMkaVZBJrD5lc3k+bJR3luaSqtDsUO0jsQaUgpNYPFJzYyzIecEHMtfCb7dM5salYfLSYUyk9m80VPBF3DhZiZwic1ZHynJt/3llM6E9+PDL6h1m0J8gr6gJbsx83V18mXPP+za7MagYHaYWazO4d3mj5087Jwi7YBoCSGPLMi6GjxwD+pKJ3j6a8s2itd/EbRcuZ8l0Fi5fMOQDnh/tFIVNfEcu/ctm0NORNPE3L22LlLWvFnfRTv4VthA5jDO1GSoCwbIelMvaWzKyP6lQkI9Uo6lhQtMnmcx7LQBJjJwbynkSYKZ8/ACQhGn7 claudiol@fedora24.example.com"
 		},
 		"subscriptionId": {
-			"value": "changeme"
+			"value": "bf5765ea-064f-4c5d-a420-b308f5642c61"
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "GCSSResourceGroup"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "GCSSVault"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": "redhat"
 		},
 		"defaultSubDomainType": {
 			"value": "xipio"
 		},
 		"defaultSubDomain": {
-			"value": "changeme"
+			"value": "cloudapps.net"
 		}
 	}
 }
