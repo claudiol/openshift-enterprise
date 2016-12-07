@@ -8,7 +8,7 @@ Deploy using azuredeploy.json:
 
 Deploy using azuredeploy.ha.json
 <a href="https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fclaudiol%2Fopenshift-enterprise%2Fclaudiol-azure%2Fgcss-azuredeploy.ha.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fclaudiol%2Fopenshift-enterprise%2Fclaudiol-azure%2Fazuredeploy.ha.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fclaudiol%2Fopenshift-enterprise%2Fclaudiol-azure%2Fgcss-azuredeploy.ha.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
