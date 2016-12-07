@@ -5,6 +5,10 @@ USER=$1
 PASSWORD=$2
 POOL_ID=$3
 
+USER=rhn-gps-claudiol
+PASSWORD=Azsx\$123
+POOL_ID=8a85f9843e3d687a013e3ddd46dd07f1
+
 # Register Host with Cloud Access Subscription
 echo $(date) " - Register host with Cloud Access Subscription"
 
